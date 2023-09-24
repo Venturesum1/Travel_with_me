@@ -1,0 +1,168 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+#a{
+    position:absolute;
+    font-size: x-large;
+    color: floralwhite;
+    top: -1%;
+    left:0%;
+    width: 380px;
+    height: 300px;
+    padding: 50px;
+    text-align: center;
+    background-color:orange;
+    background: url(images/IndiaGate.jpg);
+    margin-top:20px;
+    box-shadow: 1px 1px 20px 0 black;
+    cursor: pointer;
+}
+
+#panela{
+    position:absolute;
+    top:25%;
+    left:-2%;
+    width: 450px;
+    height: 100px;
+    padding: 50px;
+    display: none;
+    background: transparent;
+}   
+#b{
+    position:absolute;
+    font-size: x-large;
+    color:floralwhite;
+    top: 1%;
+    left: 35%;
+    width: 380px;
+    height: 300px;
+    padding: 50px;
+    text-align: center;
+    background-color:orange;
+    background: url(images/Kolkata.jpg);
+    margin-top:5px;
+    box-shadow: 1px 1px 20px 0 black;
+    cursor: pointer;
+}
+
+#panelb{
+    position:absolute;
+    top:25%;
+    left:33%;
+    width: 450px;
+    height: 100px;
+    padding: 50px;
+    display: none;
+    background: transparent;
+}
+#c{
+    position:absolute;
+    font-size: x-large;
+    color:floralwhite;
+    top: 1%;
+    left: 69%;
+    width: 380px;
+    height: 300px;
+    padding: 50px;
+    text-align: center;
+    background-color:orange;
+    background: url(images/hyderabad.jpg);
+    margin-top:5px;
+    box-shadow: 1px 1px 20px 0 black;
+    cursor: pointer;
+}
+
+#panelc{
+    position:absolute;
+    top:25%;
+    left:66.5%;
+    width: 450px;
+    height: 100px;
+    padding: 50px;
+    display: none;
+    background: transparent;
+}
+#d{
+    position:absolute;
+    font-size: x-large;
+    color:floralwhite;
+    top: 55%;
+    left: 0%;
+    width: 380px;
+    height: 300px;
+    padding: 50px;
+    text-align: center;
+    background-color:orange;
+    background: url(images/Goa.jpg);
+    margin-top:5px;
+    box-shadow: 1px 1px 20px 0 black;
+    cursor: pointer;
+}
+
+#paneld{
+    position:absolute;
+    top:85%;
+    left:-2%;
+    width: 450px;
+    height: 100px;
+    padding: 50px;
+    display: none;
+    background: transparent;
+}
+#e{
+    position:absolute;
+    font-size: x-large;
+    color:floralwhite;
+    top: 55%;
+    left: 35%;
+    width: 380px;
+    height: 300px;
+    padding: 50px;
+    text-align: center;
+    background-color:orange;
+    background: url(images/Himachal.jpg);
+    margin-top:5px;
+    box-shadow: 1px 1px 20px 0 black;
+    cursor: pointer;
+}
+
+#panele{
+    position:absolute;
+    top:75%;
+    left:32%;
+    width: 450px;
+    height: 100px;
+    padding: 50px;
+    display: none;
+    background: transparent;
+}
+#f{
+    position:absolute;
+    font-size: x-large;
+    color:floralwhite;
+    top: 55%;
+    left: 69%;
+    width: 380px;
+    height: 300px;
+    padding: 50px;
+    text-align: center;
+    background-color:orange;
+    background: url(images/Kerala.jpg);
+    margin-top:5px;
+    box-shadow: 1px 1px 20px 0 black;
+    cursor: pointer;
+}
+
+#panelf{
+    position:absolute;
+    top:80%;
+    left:66.5%;
+    width: 450px;
+    height: 100px;
+    padding: 50px;
+    display: none;
+    background: transparent;
+}

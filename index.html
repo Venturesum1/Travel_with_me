@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Dreame Escape</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- fonts -->
+    <link rel="stylesheet" href="font/fonts.css">
+    <!-- normalize css -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/utility.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./images/favicon.jpg" type="image/x-icon">
+</head>
+
+<body>
+    <!-- navbar  -->
+
+    <nav class="navbar">
+        <div class="container flex">
+            <a href="index.html" class="site-brand">
+                Dreame<span>Escape</span>
+            </a>
+
+            <button type="button" id="navbar-show-btn" class="flex">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div id="navbar-collapse">
+                <button type="button" id="navbar-close-btn" class="flex">
+                    <i class="fas fa-times"></i>
+                </button>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="login.html" class="nav-link">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="gallery.html" class="nav-link">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="blog.html" class="nav-link">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="DIscount Page.html" class="nav-link">Discount</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- end of navbar  -->
+
+    <!-- header -->
+    <header class="flex">
+        <div class="container" id="div1">
+            <div class="header-title">
+                <h1>Leave Your Footprints</h1>
+                <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus rerum maxime enim odit illum in molestias beatae doloremque, ratione optio.</p> -->
+            </div>
+            <div class="header-form">
+                <h2>Choose your Travel location:</h2>
+                <div class="flex">
+                    <input type="text" class="form-control" placeholder="Destination name" id="destname">
+                    <input type="date" class="form-control" placeholder="Date" id="dat">
+                    <input type="number" class="form-control" placeholder="Price (Rs/-)" id="price">
+                    <input type="submit" class="btn" value="Search" id="butn">
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header -->
+
+    <!-- featured section -->
+    <section id="featured" class="py-4">
+        <div class="container">
+            <div class="title-wrap">
+                <span class="sm-title">know about some places before your travel</span>
+                <h2 class="lg-title">featured places</h2>
+            </div>
+
+            <div class="featured-row">
+                <div class="featured-item my-2 shadow">
+                    <img src="images/Ooty.jpg" alt="featured place">
+                    <div class="featured-item-content">
+                        <span>
+                            <i class="fas fa-map-marker-alt"></i>
+                            Ooty, Maharashtra
+                        </span>
+                        <div>
+                            <p class="text">Ooty, also known as Udhagamandalam, is a picturesque hill station located in
+                                the state of Tamil Nadu, India. It is situated at an altitude of 2,240 meters above sea
+                                level in the Nilgiri Hills, </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="featured-item my-2 shadow">
+                    <img src="images/featured-north-bondi-australia.jpg" alt="featured place">
+                    <div class="featured-item-content">
+                        <span>
+                            <i class="fas fa-map-marker-alt"></i>
+                            North Bondi, Australia
+                        </span>
+                        <div>
+                            <p class="text">North Bondi is a beachside suburb located in the eastern suburbs of Sydney,
+                                Australia. </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="featured-item my-2 shadow">
+                    <img src="images/featured-berlin-germany.jpg" alt="featured place">
+                    <div class="featured-item-content">
+                        <span>
+                            <i class="fas fa-map-marker-alt"></i>
+                            Berlin, Germany
+                        </span>
+                        <div>
+                            <p class="text">Berlin is the capital city of Germany and is known for its rich history,
+                                vibrant culture, and diverse architecture. It is located in the northeastern part of
+                                Germany .</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="featured-item my-2 shadow">
+                    <img src="images/featured-khwaeng-wat-arun-thailand.jpg" alt="featured place">
+                    <div class="featured-item-content">
+                        <span>
+                            <i class="fas fa-map-marker-alt"></i>
+                            Khwaeng wat arun, thailand
+                        </span>
+                        <div>
+                            <p class="text">Khwaeng Wat Arun is a neighborhood located in the Bangkok Yai district of
+                                Bangkok, Thailand. It is named after the Wat Arun temple, also known as the Temple of
+                                Dawn.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="featured-item my-2 shadow">
+                    <img src="images/featured-rome-italy.jpg" alt="featured place">
+                    <div class="featured-item-content">
+                        <span>
+                            <i class="fas fa-map-marker-alt"></i>
+                            Rome, Italy
+                        </span>
+                        <div>
+                            <p class="text">Rome is the capital city of Italy and is known for its rich history,
+                                stunning architecture, and cultural heritage.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="featured-item my-2 shadow">
+                    <img src="images/featured-fuvahmulah-maldives.jpg" alt="featured place">
+                    <div class="featured-item-content">
+                        <span>
+                            <i class="fas fa-map-marker-alt"></i>
+                            fuvahmulah, maldives
+                        </span>
+                        <div>
+                            <p class="text">Fuvahmulah is an island located in the Maldives, which is a group of small
+                                islands located in the Indian Ocean.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of featured section -->
+
+    <!-- services section -->
+    <section id="services" class="py-4">
+        <div class="container">
+            <div class="title-wrap">
+                <span class="sm-title">know about services that we offer</span>
+                <h2 class="lg-title">Our services</h2>
+            </div>
+
+            <div class="services-row">
+                <div class="services-item">
+                    <span class="services-icon">
+                        <i class="fas fa-hotel"></i>
+                    </span>
+                    <h3>Luxurious Hotel</h3>
+                    <p class="text">Our rooms and suites are designed with the discerning traveler in mind, offering a
+                        blend of modern amenities and classic elegance. Each room is tastefully decorated with premium
+                        furnishings and features luxurious bedding, a flat-screen TV, a fully stocked mini-bar, and
+                        high-speed internet access.</p>
+                    <a href="#" class="btn">Read more</a>
+                </div>
+
+                <div class="services-item">
+                    <span class="services-icon">
+                        <i class="fas fa-map-marked-alt"></i>
+                    </span>
+                    <h3>Trave Guide</h3>
+                    <p class="text">Welcome to our travel guide, your ultimate source for information on [destination].
+                        Whether you're planning a trip or just dreaming of one, our guide is here to help you make the
+                        most of your journey.</p>
+                    <a href="#" class="btn">Read more</a>
+                </div>
+
+                <div class="services-item">
+                    <span class="services-icon">
+                        <i class="fas fa-money-bill"></i>
+                    </span>
+                    <h3>Suitable Price</h3>
+                    <p class="text">At our establishment, we offer affordable and competitive prices that provide great
+                        value for our guests. We understand that travel can be expensive, and we strive to offer a range
+                        of options to fit every budget.</p>
+                    <a href="#" class="btn">Read more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of services section -->
+
+    <!-- testimonials section -->
+    <section id="testimonials" class="py-4">
+        <div class="container">
+            <div class="title-wrap">
+                <span class="sm-title">what our clients say about us</span>
+                <h2 class="lg-title">testimonials</h2>
+            </div>
+            <div class="test-row">
+                <div class="test-item">
+                    <p class="text">
+                    <h2 style="text-align: center; color: brown;">Member1</h2>
+                    </p>
+                    <div class="test-item-info">
+                        <img src="images/sssss.jpeg" alt="testimonial">
+                        <div>
+                            <h3>Soumyasis</h3>
+                            <p class="text"></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="test-row">
+                    <div class="test-item">
+                        <p class="text">
+                        <h2 style="text-align: center; color: brown;">Member2</h2>
+                        </p>
+                        <div class="test-item-info">
+                            <img src="images/test-1.jpg" alt="testimonial">
+                            <div>
+                                <h3>Sk Md Sahil</h3>
+                                <p class="text"></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="test-item">
+                        <p class="text">
+                        <h2 style="text-align: center; color: brown;">Member3</h2>
+                        </p>
+                        <div class="test-item-info">
+                            <img src="images/test-2.jpeg" alt="testimonial">
+                            <div>
+                                <h3>Sk Md Soyeb</h3>
+                                <p class="text"></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="test-item">
+                        <p class="text">
+                        <h2 style="text-align: center; color: brown;">Member4</h2>
+                        </p>
+                        <div class="test-item-info">
+                            <img src="images/test-3.jpeg" alt="testimonial">
+                            <div>
+                                <h3>Sk Suman</h3>
+                                <p class="text"></p>
+                            </div>
+                        </div>
+                    </div>
+
+    </section>
+    <!-- end of testimonials section -->
+
+    <!-- video section -->
+    <section id="video">
+        <div class="video-wrapper flex">
+            <video muted loop autoplay="autoplay">
+                <source src="videos/video-section.mp4" type="video/mp4">
+            </video>
+        </div>
+    </section>
+    <!-- end of video section -->
+
+    <!-- footer -->
+    <footer class="py-4">
+        <div class="container footer-row">
+            <div class="footer-item">
+                <a href="index.html" class="site-brand">
+                    Dreame<span>Escape</span>
+                </a>
+                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet voluptates maiores nam
+                    vitae iusto. Placeat rem sint voluptas natus exercitationem autem quod neque, odit laudantium
+                    reiciendis ipsa suscipit veritatis voluptate.</p>
+            </div>
+
+            <div class="footer-item">
+                <h2>Follow us on: </h2>
+                <ul class="social-links">
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-pinterest"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-google-plus"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer-item">
+                <h2>Popular Places:</h2>
+                <ul>
+                    <li><a href="#">Kolkata</a></li>
+                    <li><a href="#">Mumbai</a></li>
+                    <li><a href="#">Hydrabad</a></li>
+                    <li><a href="#">Goa</a></li>
+                    <li><a href="#">Delhi</a></li>
+                    <li><a href="#">Himachal</a></li>
+                </ul>
+            </div>
+
+            <div class="subscribe-form footer-item">
+                <h2>Subscribe for Newsletter!</h2>
+                <form class="flex">
+                    <input type="email" placeholder="Enter Email" class="form-control">
+                    <input type="submit" class="btn" value="Subscribe">
+                </form>
+            </div>
+        </div>
+    </footer>
+    <!-- end of footer -->
+
+    <!-- js -->
+    <script src="js/script.js"></script>
+    <!-- <script>
+            // play/pause video
+            let video = document.querySelector('.video-wrapper video');
+            document.getElementById('play-btn').addEventListener('click', () => {
+                if(video.paused){
+                    video.play();
+                } else {
+                    video.pause();
+                }
+            });
+        </script> -->
+</body>
+
+</html>
